@@ -62,15 +62,8 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.;$(SolutionDir)thirdparty\bzip2-1.0.8\include</AdditionalIncludeDirectories>
     </ClCompile>
-    <Midl>
-      <TypeLibraryName>.\dlltest_\dlltest.tlb</TypeLibraryName>
-      <AdditionalIncludeDirectories>.;..;$(SolutionDir)include;$(SolutionDir)thirdparty;</AdditionalIncludeDirectories>
-    </Midl>
-    <ResourceCompile>
-      <Culture>0x0411</Culture>
-      <PreprocessorDefinitions>_DEBUG;</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.;..;$(SolutionDir)include;$(SolutionDir)thirdparty;</AdditionalIncludeDirectories>
-    </ResourceCompile>
+    
+    
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <OutputFile>.\dlltest_\dlltest.bsc</OutputFile>
@@ -95,15 +88,8 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.;$(SolutionDir)thirdparty\bzip2-1.0.8\include</AdditionalIncludeDirectories>
     </ClCompile>
-    <Midl>
-      <TypeLibraryName>.\Release\dlltest.tlb</TypeLibraryName>
-      <AdditionalIncludeDirectories>.;..;$(SolutionDir)include;$(SolutionDir)thirdparty;</AdditionalIncludeDirectories>
-    </Midl>
-    <ResourceCompile>
-      <Culture>0x0411</Culture>
-      <PreprocessorDefinitions>NDEBUG;</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.;..;$(SolutionDir)include;$(SolutionDir)thirdparty;</AdditionalIncludeDirectories>
-    </ResourceCompile>
+    
+    
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <OutputFile>.\Release\dlltest.bsc</OutputFile>
