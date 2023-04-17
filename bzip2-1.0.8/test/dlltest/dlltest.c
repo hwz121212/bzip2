@@ -10,7 +10,7 @@
 #define BZ_IMPORT
 #include <stdio.h>
 #include <stdlib.h>
-#include "bzlib.h"
+#include <bzlib.h>
 #ifdef _WIN32
 #include <io.h>
 #endif
