@@ -5,11 +5,13 @@ VisualStudioVersion = 15.0.28307.2092
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_thirdparty", "0_thirdparty", "{EBBBC5AB-E662-45E5-BA81-FB445F6B829F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_demo", "1_demo", "{0308EA3F-36B3-4A2E-90E4-87AFE8A14130}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_test", "1_test", "{0308EA3F-36B3-4A2E-90E4-87AFE8A14130}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libbzip2", "thirdparty\bzip2-1.0.8\libbzip2_linux.vcxproj", "{791642ED-9E59-4F42-927B-3562F869D9C1}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bzip2", "thirdparty\bzip2-1.0.8\bzip2_linux.vcxproj", "{B3D12233-9673-4CE5-A799-2C2124912D09}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dlltest", "test\dlltest\dlltest_linux.vcxproj", "{07319FEE-3F66-4F30-9E28-7CA992BA01F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{B3D12233-9673-4CE5-A799-2C2124912D09}.Debug|x64.Build.0 = Debug|x64
 		{B3D12233-9673-4CE5-A799-2C2124912D09}.Release|x64.ActiveCfg = Release|x64
 		{B3D12233-9673-4CE5-A799-2C2124912D09}.Release|x64.Build.0 = Release|x64
+		{07319FEE-3F66-4F30-9E28-7CA992BA01F8}.Debug|x64.ActiveCfg = Debug|x64
+		{07319FEE-3F66-4F30-9E28-7CA992BA01F8}.Debug|x64.Build.0 = Debug|x64
+		{07319FEE-3F66-4F30-9E28-7CA992BA01F8}.Release|x64.ActiveCfg = Release|x64
+		{07319FEE-3F66-4F30-9E28-7CA992BA01F8}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{791642ED-9E59-4F42-927B-3562F869D9C1} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
 		{B3D12233-9673-4CE5-A799-2C2124912D09} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
+		{07319FEE-3F66-4F30-9E28-7CA992BA01F8} = {0308EA3F-36B3-4A2E-90E4-87AFE8A14130}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5806D430-DEB4-4E2B-8838-C80B410D7661}
